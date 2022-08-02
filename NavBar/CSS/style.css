@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-family: sans-serif;
+}
+.nav{
+    background-color: black;
+    border-radius: 30px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    float: left;
+    margin: 15px 15px;
+}
+.nav ul{
+    overflow: auto;
+    margin-left: 40px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.search{
+    float: right;
+    color: white;
+    padding: 8px 60px;
+}
+.nav input{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: 200px;
+    margin-right: 5px;
+}
+.nav li a:hover{
+    color: rgb(250, 250, 250);
+}

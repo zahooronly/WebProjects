@@ -1,0 +1,19 @@
+body {
+  margin: 2%;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+.row {
+  height: 225px;
+}
+.row {
+  margin-bottom: 5px;
+}
+.navbar {
+  height: 30px;
+  color: #fff;
+}
+#menu {
+  float: right;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Myfont";
+    src: url('/fonts/SgtJhonO-JRW07.ttf');
+}
+
+
+    body{
+        font-family: 'Myfont', Arial, sans-serif;
+        margin:0px;
+        padding: 0px;
+        background: url('/images/women.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #header{
+        margin: 15px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    .logo img{
+        width: 70px;
+        filter: invert(100%);
+    }
+    .menu ul{
+        transition: 0.2s;
+        list-style: none;
+        padding: 0 30px;
+        display: flex;
+    }
+    .menu ul:hover{
+        border-bottom: 1px solid white;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.521);
+    }
+    ul li{
+        padding: 0 30px;
+    }
+    ul a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        transition: 0.2s;
+        /* letter-spacing: 10px; */
+    }
+    ul a:hover, ul a:active{
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        padding: 10px 10px;
+        border-radius: 4px;
+        font-size: 20px;
+    }
+    .btn button{
+        padding: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        cursor: pointer;
+        background-color: rgb(19 20 22);
+        color:white;
+        border-radius: 4px;
+        transition: 0.2s;
+        font-family: 'Myfont', Arial, sans-serif;
+        
+    }
+    .btn button:hover{
+        color: rgb(63, 63, 63);
+        background-color: rgb(224, 224, 224);
+        border-color: black;
+        padding: 10px 40px;
+        border-radius: 4px;
+    }
