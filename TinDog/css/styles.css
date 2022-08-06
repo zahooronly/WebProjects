@@ -5,6 +5,29 @@
 body {
   font-family: "Montserrat";
 }
+@media (max-width: 991px) {
+  .navbar-nav {
+    position: relative;
+    background-color: #ff4c68;
+    z-index: 10;
+    margin-bottom: 2%;
+  }
+  .navbar {
+    height: auto;
+    text-align: right;
+  }
+  nav-link {
+    display: block;
+    text-align: right;
+  }
+  .nav-item {
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+  }
+}
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -43,6 +66,7 @@ body {
 }
 .navbar {
   margin-bottom: 4.5rem;
+  max-height: 100px;
 }
 .btn {
   margin: 5% 3% 3% 0;
@@ -146,11 +170,12 @@ body {
 .card:hover {
   border: none;
   border-radius: 20px;
-  box-shadow: #ff4c679c 0px 18px 50px -10px;
+  box-shadow: #ff4c676b 0px 18px 50px -10px;
 }
 
 .btn-outline-dark:hover {
   background-color: #ff4c68;
+  /* box-shadow: #ff4c676b 0px 18px 50px -10px; */
   color: white;
   border: none;
 }
