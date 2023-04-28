@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Myfont";
+  src: url("Font/calculator.ttf");
+}
+
+/* .container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 20px;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  background-color: #323330;
+  border-radius: 20px;
+} */
+.dark-mode {
+  max-width: 400px;
+  margin: 2vh auto 2vh auto;
+  background-color: #323330;
+  /* background-color: white; */
+  box-shadow: rgba(0, 0, 0, 0.842) 0px 10px 50px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Myfont";
+}
+.dark-buttons > div {
+  /* background-color: #323330; */
+  /* background-color: white; */
+  border-radius: 10px;
+  box-shadow: rgba(247, 247, 247, 0.205) 0px 0px 16px;
+  user-select: none;
+}
+#display {
+  text-align: right;
+  height: 13vh;
+  line-height: 70px;
+  font-size: 75px;
+  padding: 16px 8px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  user-select: none;
+}
+/* .buttons > div {
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  user-select: none;
+} */
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+.dark-button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.dark-button:hover {
+  background-color: white;
+  color: #323330;
+  transition: 0.5s all ease-in-out;
+}
+#equal {
+  background-color: #00bfff;
+  color: white;
+  font-size: 5rem;
+  transition: 0.5s all ease-in-out;
+}
+#equal:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+/* .moon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 9px 9px 0 0 #333;
+  margin-left: -25px;
+  margin-top: -25px;
+} */
